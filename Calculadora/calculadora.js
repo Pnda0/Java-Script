@@ -21,32 +21,51 @@ function calculadora() {
             function Soma() {
                 resultado = n1 + n2;
                 // O sinais $ significa: "Formatar" ->
-                alert(' ${n1} + ${n2} = ${resultado}');
+                alert(`${n1} + ${n2} = ${resultado}`);
             }
             function Subtração() {
                 resultado = n1 - n2;
                 // O sinais $ significa: "Formatar" ->
-                alert(' ${n1} - ${n2} = ${resultado}');
+                alert(` ${n1} - ${n2} = ${resultado}`);
             }
             function Multiplicação() {
                 resultado = n1 * n2;
                 // O sinais $ significa: "Formatar" ->
-                alert(' ${n1} * ${n2} = ${resultado}');
+                alert(` ${n1} * ${n2} = ${resultado}`);
             }
             function Divisão() {
                 resultado = n1 / n2;
                 // O sinais $ significa: "Formatar" ->
-                alert(' ${n1} / ${n2} = ${resultado}');
+                alert(` ${n1} / ${n2} = ${resultado}`);
             }
             function Divisão_inteira() {
                 resultado = n1 % n2;
                 // O sinais $ significa: "Formatar" ->
-                alert(' ${n1} % ${n2} = ${resultado}');
-            }
+                alert(` ${n1} % ${n2} = ${resultado}`);
+            } 
             function Potenciação() {
                 resultado = n1 ** n2;
                 // O sinais $ significa: "Formatar" ->
-                alert(' ${n1} ** ${n2} = ${resultado}');
+                alert(` ${n1} ** ${n2} = ${resultado}`);
+            }
+
+            if(operacao == 1){
+                Soma();
+            }
+            else if (operacao == 2){
+                Subtração();
+            }
+            else if (operacao == 3){
+                Multiplicação();
+            }    
+            else if (operacao == 4){
+                Divisão;
+            }    
+            else if (operacao == 5){
+                Divisão_inteira();
+            }
+            else if (operacao == 6){
+                Potenciação();
             }
         }
         }
