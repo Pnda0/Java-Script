@@ -58,6 +58,7 @@ h1{
     text-align: right;
 
     width: 206px;
+    max-width: 206px;
     height: 35px;
     background-color: white;
 
