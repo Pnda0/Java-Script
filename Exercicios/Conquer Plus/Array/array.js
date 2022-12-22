@@ -14,3 +14,10 @@ for (let nomes in nome){
 for (let nomes of Array.entries()){
     console.log(nome);
 }
+
+const bebidas = ['Refrigerante', 'Água', 'Suco', 'leite', 'Guarana']
+
+for (let drink of bebidas){
+    console.log(drink)
+}
+
