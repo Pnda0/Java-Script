@@ -25,27 +25,22 @@ function calculadora() {
             }
             function Subtração() {
                 resultado = n1 - n2;
-                // O sinais $ significa: "Formatar" ->
                 alert(` ${n1} - ${n2} = ${resultado}`);
             }
             function Multiplicação() {
                 resultado = n1 * n2;
-                // O sinais $ significa: "Formatar" ->
                 alert(` ${n1} * ${n2} = ${resultado}`);
             }
             function Divisão() {
                 resultado = n1 / n2;
-                // O sinais $ significa: "Formatar" ->
                 alert(` ${n1} / ${n2} = ${resultado}`);
             }
             function Divisão_inteira() {
                 resultado = n1 % n2;
-                // O sinais $ significa: "Formatar" ->
                 alert(` ${n1} % ${n2} = ${resultado}`);
             } 
             function Potenciação() {
                 resultado = n1 ** n2;
-                // O sinais $ significa: "Formatar" ->
                 alert(` ${n1} ** ${n2} = ${resultado}`);
             }
 
