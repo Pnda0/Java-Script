@@ -10,4 +10,4 @@ const ages = {
   Yan:28
 };
 
-console.log(ages %= 2)
+console.log(ages %= 3)
