@@ -50,3 +50,25 @@ console.log(elemento1.tagName)
 const elemento2 = document.querySelector("h1#title")
 
 console.log(elemento2.textContent)
+
+// Algumas respostas possíveis
+
+// document.queryselector("h1#title")
+
+// document.queryselector("#title")
+
+// document.queryselector("h1")
+
+// Atribuindo o selector a constante element para obter o retorno "Subtitulo"
+
+const elmento3 = document.querySelector("h2")
+console.log(elemento3.textContent)
+
+// Algumas respostas possíveis
+
+// document.queryselector("h2")
+
+// documento.queryselectorall("h2")[0]
+
+// document.getelementsbytagname("h2")[0]
+
