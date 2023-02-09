@@ -72,3 +72,8 @@ console.log(elemento3.textContent)
 
 // document.getelementsbytagname("h2")[0]
 
+// Puxando elemento com a tag input e retornando o valor
+
+const elemento3 = document.querySelector("#username")
+console.log(elemento3.value)
+
