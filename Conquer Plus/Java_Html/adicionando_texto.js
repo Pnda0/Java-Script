@@ -1,15 +1,17 @@
 const codigo_postal = document.getElementById("zipCode")
 
-console.log(codigo_postal.textContent = "7979779")
+const complemento = document.getElementById('Complemento')
 
 const endereco = document.getElementById("Adress")
 
-console.log(endereco.textContent = "Pururuca")
-
 const numero = document.getElementById('Number')
 
-console.log(numero.textContent = "96")
+codigo_postal.value = '99999-9999'
+endereco.value =  "Pururuca"
+numero.value = "96"
+complemento.value = "Peço desculpas tenha uma boa tarde, com carinho raqueu"
 
-const complemento = document.getElementById('Complemento')
 
-console.log(complemento.textContent = "Frei")
+const botao = document.getElementById('botao').value
+const txt = "Ea i parcero andou apertando o botao"
+console.log(botao.textContent = txt)
