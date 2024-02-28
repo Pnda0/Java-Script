@@ -1,8 +1,5 @@
 function run() {
-    var agora = new Date();
-    console.log(agora);
-    var diaSemana = agora.getDay() - 5;
-    console.log(diaSemana);
+    
 
     var horaAtual = agora.getHours().toString().padStart(2, '0') + ":" + agora.getMinutes().toString().padStart(2, '0');
     console.log(horaAtual)

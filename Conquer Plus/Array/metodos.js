@@ -3,7 +3,6 @@ const array = ['logica de programação', 'html', 'Css', 'Javascript', 'Github',
 // Remove o wúltimo elemento do Array
 //array.pop()
 
-
 // Remove o primeiro item do Array
 // array.shift()
 

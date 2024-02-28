@@ -1,6 +1,7 @@
 function run() {
     var agora = new Date();
     console.log(agora);
+    
     var diaSemana = agora.getDay() + 1;
     console.log(diaSemana);
   
