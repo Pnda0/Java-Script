@@ -7,7 +7,7 @@
 
 */
 
-class carros {
+class Carros {
     marca;
     cor;
     gasto;
@@ -43,8 +43,8 @@ console.log(custoFinal)
 const gastoEmReais = custoFinal * precoGasolina
 console.log(gastoEmReais)
 
-const matheus = new carros('New Fiesta', 'Branco', gastoEmReais)
+const matheus = new Carros('New Fiesta', 'Branco', gastoEmReais)
 console.log(matheus.descrever())
 
-const lucas = new carros('Audi A3', 'Preto', 30)
+const lucas = new Carros('Audi A3', 'Preto', 30)
 console.log(lucas.descrever())
