@@ -13,12 +13,13 @@ console.log(notas.length)
 // Pegar a média da lista; soma / tamanho da lista
 const soma = notas[0] +  notas[1] + notas[2] + notas[3] + notas[4]
 
-// Utilando laços de repetição
-
-
+// Utilzando laços de repetição
 for (let i = 0; i < notas.length; i++){
     console.log(i)
 };
 
+// Media
 
+const media = soma / notas.length;
+console.log(media)
 
