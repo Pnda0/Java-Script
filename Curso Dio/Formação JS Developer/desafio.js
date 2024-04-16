@@ -8,6 +8,7 @@ const tipoCombustivel = 'Etanol';
 const gastoKmLitro = distanciaKM / kmLitros;
 console.log(gastoKmLitro.toFixed(2));
 
+
 if (tipoCombustivel === 'Etanol') {
     const totalGasto = gastoKmLitro * precoEtanol;
     console.log("Total gasto pela viagem em Etanol foi de R$" + totalGasto.toFixed(2));

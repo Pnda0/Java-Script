@@ -12,8 +12,8 @@ const customers = [
 for ( person of customers){
     if (person.credito < 2000) continue;
 
-console.log("-------------------------------");
-console.log("Name", person.name);
-console.log("Credito", person.credito);
+    console.log("-------------------------------");
+    console.log("Name", person.name);
+    console.log("Credito", person.credito);
 }
 

@@ -1,9 +1,9 @@
 
 const notas = {
-    bimestre1:7.0,
-    bimestre2:7.7,
-    bimestre3:6.4,
-    bimestre4:8.6
+    bimestre1: 7.0,
+    bimestre2: 7.7,
+    bimestre3: 6.4,
+    bimestre4: 8.6
 }
 
 let soma = 0;
