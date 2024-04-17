@@ -1,19 +1,12 @@
 const codigo_postal = document.getElementById("zipCode")
-
 const complemento = document.getElementById('Complemento')
-
 const endereco = document.getElementById("Adress")
-
 const numero = document.getElementById('Number')
-
-
-
 
 codigo_postal.value = '99999-9999'
 endereco.value =  "Pururuca"
 numero.value = "96"
 complemento.value = "oi"
-
 
 const botao = document.getElementById('botao').value
 
