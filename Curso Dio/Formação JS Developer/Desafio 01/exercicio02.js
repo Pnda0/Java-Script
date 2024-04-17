@@ -18,7 +18,6 @@ for (let i = 0; i < numeros.length; i++) {
 }
 print(`O maior número par é: ${maiorNumero}`)
 
-
 let menorNumero = 100
 for (let i = 0; i < numeros.length; i++) {
     if (numeros[i] % 2 !== 0) {
