@@ -20,7 +20,6 @@ firstLi.addEventListener('click', handleChangeTech);
 secondLi.addEventListener('click', handleChangeTech);
 thirdLi.addEventListener('click', handleChangeTech);
 
-
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech'.
 input.addEventListener('input', (event) => {
